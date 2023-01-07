@@ -93,3 +93,74 @@ elif 3==3:
 else:
     print('last')
 
+seq =[1,2,3,4,5]
+
+ for num in seq:
+        print(num)
+
+for num in seq:
+        print('pinku')
+
+i = 1
+
+while i <5:
+    print('i is:{}'.format(i))
+    i = i +1
+
+
+
+i = 1
+
+while i <5:
+    print('i is:{}'.format(i))
+    i = i +1
+
+for x in range(0,5):
+    print(x)
+
+list(range(10))
+
+#list comprehension
+
+x = [1,2,3,4]
+
+out =[]
+
+for num in x:
+    out.append(num**2)
+
+print(out)
+
+[num**2 for num in x]
+
+out = [num**2 for num in x]
+
+print(out)
+
+#fuctions  
+
+def myname(name=''):
+    print('hello' +  name)
+
+myname('pinku')
+
+def myname(name='pinku'):
+    print('hello' +  name)
+
+myname()
+
+def square(num):
+    '''
+    Hello mr. Pinku.
+    how are you.
+    what are you doing.
+    '''
+    return num**2
+
+output = square(4)
+
+output
+
+square(num)
+
+range
